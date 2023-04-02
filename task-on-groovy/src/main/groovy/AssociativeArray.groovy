@@ -3,7 +3,7 @@ class AssociativeArray {
 
     private AssociativeArray() {}
 
-    static getAssociativeMap(List elements) {
+    static getAssociativeArray(List elements) {
         if (elements == null || elements.isEmpty()) {
             throw RuntimeException
         }
