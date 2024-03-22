@@ -6,6 +6,7 @@ package org.rtinform;
 public class App {
 
     public static void main( String[] args ) {
+        System.out.println("USER1 начинает разрабатывать свою фичу и открывает МР");
         System.out.println("USER2 внес изменения в ту же строку что и USER1 и успешно вмержил");
     }
 }
