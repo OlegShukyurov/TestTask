@@ -23,7 +23,7 @@ class AssociativeArrayTest {
     void givenListInteger_whenGetAssociativeArray_thenReturnCorrectAssociativeArray() {
         List<Integer> integerList = List.of(1, 3, 4, 5, 1, 5, 4);
         Map<Object, Integer> expected = Map.of(1, 2, 3, 1, 4, 2, 5, 2);
-        Map<Object, Integer> actual = AssociativeArray.getAssociativeArray(integerList);
+        Map<Integer, Integer> actual = AssociativeArray.getAssociativeArray(integerList);
 
         assertEquals(expected, actual);
     }
@@ -32,7 +32,7 @@ class AssociativeArrayTest {
     void givenListString_whenGetAssociativeArray_thenReturnCorrectAssociativeArray() {
         List<String> stringList = List.of("one", "three", "four", "five", "one", "five", "four");
         Map<Object, Integer> expected = Map.of("one", 2, "three", 1, "four", 2, "five", 2);
-        Map<Object, Integer> actual = AssociativeArray.getAssociativeArray(stringList);
+        Map<String, Integer> actual = AssociativeArray.getAssociativeArray(stringList);
 
         assertEquals(expected, actual);
     }

@@ -16,11 +16,11 @@ public class AssociativeArray {
      * @exception RuntimeException исключение возникающее в случае если list = null либо пуст
      * @return результирующий массив
      */
-    public static <T> Map<Object, Integer> getAssociativeArray(List<T> list) {
+    public static <T> Map<T, Integer> getAssociativeArray(List<T> list) {
         if (list == null || list.isEmpty()) {
             throw new RuntimeException("List should not be null or empty");
         }
-        Map<Object, Integer> result = new HashMap<>();
+        Map<T, Integer> result = new HashMap<>();
         list.forEach(element ->
                 result.merge(element, 1, Integer::sum)
         );
