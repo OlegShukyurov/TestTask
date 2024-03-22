@@ -6,6 +6,7 @@ package org.rtinform;
 public class App {
 
     public static void main( String[] args ) {
+        System.out.println("USER1 пытается впушить и свои и изменения USER2");
         System.out.println("USER2 удачно впушил и залил изменения в дев");
     }
 }
