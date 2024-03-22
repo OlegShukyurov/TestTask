@@ -7,5 +7,6 @@ public class App {
 
     public static void main( String[] args ) {
         System.out.println("USER2 впушил изменения");
+        System.out.println("USER1 пытается впушить новые изменения");
     }
 }
