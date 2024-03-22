@@ -6,5 +6,6 @@ package org.rtinform;
 public class App {
 
     public static void main( String[] args ) {
+        System.out.println("USER2 добавляет на место USER1 код открывает МР и успешно мержит в мейн");
     }
 }
