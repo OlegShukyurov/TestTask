@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.spockframework:spock-core:2.4-M1-groovy-4.0" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.spockframework" artifactId="spock-core" version="2.4-M1-groovy-4.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/2.4-M1-groovy-4.0/spock-core-2.4-M1-groovy-4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/2.4-M1-groovy-4.0/spock-core-2.4-M1-groovy-4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/2.4-M1-groovy-4.0/spock-core-2.4-M1-groovy-4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
