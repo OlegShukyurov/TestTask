@@ -26,4 +26,8 @@ public class AssociativeArray {
         );
         return result;
     }
+
+    public static void user1Method() {
+        System.out.println("HELLO FROM USER1");
+    }
 }
